@@ -1,4 +1,4 @@
-baseURL: "https://hugo-profile.netlify.app"
+baseURL: "https://ibrahimselman.com"
 languageCode: "en-us"
 title: "Ibrahim selman - personal website"
 theme: hugo-profile
@@ -310,60 +310,111 @@ params:
   # projects
   projects:
     enable: true
-    # title: "Custom Name"
+    title: "Portfolio"
     items:
-      - title: Hugo Profile
-        content: A highly customizable and mobile first Hugo template for personal portfolio and blog.
-        image: /images/projects/profile.png
+      - title: Media Player
+        content: "a simplistic media player app with the following features: playlists, favorites, light and dark theme, sleep timer..."
+        image: /images/home screen screenshot.png
         featured:
           name: Demo
-          link: https://hugo-profile.netlify.app
+          link: https://github.com/master-8702/master_media_player
         badges:
-          - "Hugo"
-          - "Bootstrap"
-          - "Javascript"
+          - "Flutter"
+          - "Dart"
+          - "Getx"
         links:
-          - icon: fa fa-envelope
-            url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
+          # - icon: fa fa-envelope
+          #   url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
           - icon: fab fa-github
-            url: https://github.com/gurusabarish/hugo-profile
-          - icon: fab fa-twitter
-            url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
+            url: https://github.com/master-8702/master_media_player
+          # - icon: fab fa-twitter
+          #   url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
 
-      - title: Image Converter
-        content: A web app to convert image to pdf, png to jpg, png to jpg and png to webp without database using django.
-        image: /images/projects/converter.jpg
+      - title: Kids Matching Game
+        content: A multilingual and multi theme kids game for learning colors, animals and fruits.
+        image: /images/matching game screenshot.png
         featured:
           name: Demo
-          link: https://django-converter.herokuapp.com
+          link: https://github.com/master-8702/flutter_kids_matching_game
         badges:
-          - "Django"
-          - "Bootstrap"
+          - "Flutter"
+          - "Riverpod"
         links:
           - icon: fab fa-github
-            url: https://github.com/gurusabarish/converter
+            url: https://github.com/master-8702/flutter_kids_matching_game
 
-      - title: Hugo Profile V2
-        content: A clean and simple Hugo template for personal portfolio and blog.
-        image: /images/projects/profile2.jpg
+      - title: Flutter Clone
+        content: A whatsapp clone made with flutter and love using firebase as our backend.
+        image: /images/flutter clone screenshot.png
         featured:
-          name: Demo V2
-          link: https://hugo-profile-2.netlify.app
+          name: Demo
+          link: https://github.com/master-8702/flutter_whatsapp_clone_with_firebase
+        abc:
+          name: Detail
+          link: https://github.com/master-8702/flutter_whatsapp_clone_with_firebase
         badges:
-          - "Hugo"
-          - "Bootstrap"
-          - "Javascript"
+          - "Flutter"
+          - "Firebase"
+          
         links:
           - icon: fab fa-github
-            url: https://github.com/gurusabarish/HugoProfileV2
+            url: https://github.com/master-8702/flutter_whatsapp_clone_with_firebase
+
+
+      - title: Food Delivery App
+        content: 'A complete food delivery app with authentication, searching, location, cart, checkout...'
+        image: /images/food delivery screenshot.jpg
+        featured:
+          name: Demo
+          link: #
+
+        badges:
+          - "Flutter"
+          - "Laravel"
+          
+        links:
+          - icon: fab fa-github
+            url: #
+     
+      - title: E-commerce App
+        content: A complete e-commerce app with authentication, searching, caching, cart,checkout...
+        image: /images/ecommerce screenshot.jpg
+        featured:
+          name: Demo
+          link: #
+
+        badges:
+          - "Flutter"
+          - "Riverpod"
+          - "Firebase"
+          
+        links:
+          - icon: fab fa-github
+            url: #
+
+
+      - title: Google Play Movies UI
+        content: 'It is a single movie detail page UI design from google play movies.'
+        image: /images/google movies ui.png
+        featured:
+          name: Demo
+          link: https://github.com/master-8702/flutter_google_play_movies_ui
+
+        badges:
+          - "Flutter"
+          
+          
+        links:
+          - icon: fab fa-github
+            url: https://github.com/master-8702/flutter_google_play_movies_ui
 
   #Contact
   contact:
     enable: true
     # title: "Custom Name"
-    content: My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
+    content: "If you need any App work and consultation or if you have any questions for me my inbox is always open. \n\nI’ll try my best to get back to you as soon as i can!"
     btnName: Mail me
-    btnLink: mailto:gurusabarisha@gmail.com
+    btnLink: mailto:contact@ibrahimselman.com
     # formspree:
     #   enable: true # `contact.email` value will be ignored
     #   formId: abcdefgh # Take it from your form's endpoint, like 'https://formspree.io/f/abcdefgh'
@@ -379,11 +430,11 @@ params:
       enable: true
       disableFeaturedImage: false
     socialNetworks:
-      github: https://github.com
-      linkedin: https://linkedin.com
-      twitter: https://twitter.com
-      instagram: https://instagram.com
-      facebook: https://facebook.com
+      github: https://github.com/master-8702
+      linkedin: https://www.linkedin.com/in/ibrahim-selman/
+      # twitter: https://twitter.com
+      # instagram: https://instagram.com
+      # facebook: https://facebook.com
 
   # List pages like blogs and posts
   listPages:
