@@ -343,9 +343,9 @@ params:
           - icon: fab fa-github
             url: https://github.com/master-8702/flutter_kids_matching_game
 
-      - title: Flutter Clone
+      - title: WhatsApp Clone
         content: A whatsapp clone made with flutter and love using firebase as our backend.
-        image: /images/flutter clone screenshot.png
+        image: /images/whatsapp clone screenshot.png
         featured:
           name: Demo
           link: https://github.com/master-8702/flutter_whatsapp_clone_with_firebase
